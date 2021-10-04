@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korea</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #c9dff3;
+        }
+
+        header {
+            background-color: #333866;
+            top: 0;
+            left: 0;
+            width: 100%;
+            position: fixed;
+            z-index: 5;
+            text-align: center;
+            color: white;
+        }
+
+        .venue {
+            position: absolute;
+            margin-top: 100px;
+            background-color: #333866;
+            width: 15%;
+            height: 15%;
+            display: flex;
+            flex-direction: column;
+            font-size: 25px;
+            justify-content: center;
+            color: #b0d5fa;
+        }
+
+        b {
+            font-size: 30px;
+        }
+
+        .image1 {
+            width: 100%;
+            margin-top: 100px;
+        }
+
+
+
+        #navigation {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            height: 50px;
+            align-items: center;
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 15px;
+
+
+
+        }
+
+        a:hover {
+            background-color: lightgray;
+            color: #8f92b3;
+        }
+
+        .images {
+
+            width: 70%;
+            display: flex;
+            gap: 3%;
+
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #b0d5fa;
+            line-height: 20px;
+
+        }
+
+        footer {
+            display: flex;
+            background-color: #81B7D7;
+            bottom: 0;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="intro">Annyeonghasaeyo!</h1>
+
+    </header>
+    <main>
+        <h2 class="venue">Seoul,<br><b> South Korea</b></h2>
+        <img class="image1"
+            src="https://images.unsplash.com/photo-1525762867061-21c9fb70b15a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80"
+            alt="people walking between tall buildings">
+
+        <ul id="navigation">
+            <li><a href="#"> About</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        <br><br>
+        <h1 style="color: #333866;">Let's Shop and Explore South Korea!
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae hic magni deserunt? Sequi omnis ea fugit
+            sapiente adipisci exercitationem aliquam repellendus soluta error dolorum. Necessitatibus quisquam eveniet
+            mollitia rem, debitis, facere eos amet nulla laudantium magnam harum explicabo commodi iste corrupti minus
+            dolor voluptates perspiciatis nam quos placeat! Rerum, fugit.</p>
+        <div class="images">
+            <img class="images"
+                src="https://images.unsplash.com/photo-1517154421773-0529f29ea451?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80"
+                alt="">
+            <img class="images"
+                src="https://images.unsplash.com/photo-1598262721485-a3825ae2a7d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                alt="">
+        </div>
+
+    </main>
+    <br><br>
+    <form action="tables.html" method="GET">
+        <h2>Sign up for a tour today!
+        </h2>
+        <label for="email">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, consectetur!
+        </label><br>
+        <input type="email" placeholder="Enter your email" id="email"><br>
+    </form>
+    <footer>
+        Copyright 2021, koreatours©
+    </footer>
+</body>
+
+</html>
